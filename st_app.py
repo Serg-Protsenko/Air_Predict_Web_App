@@ -8,6 +8,7 @@ from joblib import load
 # image = Image.open('./images/airbnb.png')
 # st.image(image, width=100)
 
+# Load ready ML model for predit
 # model = pickle.load(gzip.open("rf_reg.pkl"))
 # model = load('rf_reg_01_(1).pkl')
 model = load('rf_reg_01.pkl')
