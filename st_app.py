@@ -9,7 +9,8 @@ from joblib import load
 # st.image(image, width=100)
 
 # model = pickle.load(gzip.open("rf_reg.pkl"))
-model = load('rf_reg_01_(1).pkl')
+# model = load('rf_reg_01_(1).pkl')
+model = load('rf_reg_01.pkl')
 
 
 # Define the Streamlit app
